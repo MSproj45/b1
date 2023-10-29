@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("bg1.png");
+            opacity: 5;
+        }
+
+        header {
+            background-color: rgb(171, 114, 57);
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            margin-bottom: 10px;
+        }
+
+        audio {
+            width: 100%;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-gallery img {
+            width: 30%;
+            margin: 5px;
+        }
+
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: black;
+
+        }
+
+        h2 {
+            color: aliceblue;
+        }
+
+        /* footer {
+            background-color: rgb(163, 112, 163);
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Hey Sister!!</h1>
+    </header>
+
+    <main>
+        <section id="wishes">
+            <h2>Birthday Wishes</h2>
+            <p>Many Happy Returns Of The Day Shrenika! Today and every day,wishing only the best for you. I hope your
+                all dreams come true.</p>
+        </section>
+
+        <section id="song">
+            <h2>Birthday Song</h2>
+            <audio controls>
+                <source src="song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="song">
+            <h2>Just like this song, by taking four steps,we will stay together for the whole life..we will never forget
+                each other okay? </h2>
+            <audio controls>
+                <source src="song2.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="photos">
+            <h2>I hope you like these kind of birthday wishes!!</h2>
+            <div class="photo-gallery">
+                <img src="1.jpg" alt="Birthday Photo 1">
+                <img src="2.jpg" alt="Birthday Photo 2">
+                <img src="3.jpg" alt="Birthday Photo 3">
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <p>&copy; 2023 Birthday Celebration</p>
+    </footer> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
